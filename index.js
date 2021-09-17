@@ -72,7 +72,7 @@ var questions = [question1,question2,question3,question4];
 var highScores = [{"name":"Vijay", "score": 4}, {"name":"Ram", "score": 3}, {"name":"Ramesh", "score": 2}];
 
 var userName = readlineSync.question("What's your Name ? : ");
-console.log("Welcome  "+userName+" DO YOU KNOW Vijay ?");
+console.log("Welcome "+userName+" DO YOU KNOW Vijay ?");
 
 var userScore = playGame(questions, userName);
 
